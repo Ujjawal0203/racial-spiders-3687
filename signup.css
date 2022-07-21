@@ -1,0 +1,85 @@
+#bigBox{
+    padding-top: 50px;
+    width: 85%;
+    height: 600px;
+    margin: auto;
+}
+#smallBox{
+    display: flex;
+    height: 450px;
+    width: 95%;
+    margin: auto;
+}
+#smallBox>div{
+    /* border: 1px solid green; */
+    height: auto;
+    width: 95%;
+    margin: auto;
+}
+#for>input{
+    width: 70%;
+   padding: 7px 50px;
+   margin: 10px 0px;
+   font-size: 15px;  
+   border: 1px solid rgb(226, 123, 123);
+   border-radius: 5px;
+}
+#for>input:hover{
+    border: 0.5px solid red;
+   box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+}
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: #304455;
+}
+#for>#submit{
+    background-color: #00c66b;
+    border: 0px;
+    color: #ffff;
+   margin-left: 50px;
+   padding: 15px 50px;
+   border-radius: 10px;
+   font-size: 20px;
+}
+#for>#submit:hover{
+   border: 2px solid #00c66b;
+   background-color: #ffff;
+   color: #00c66b;
+}
+#green{
+    color: #00c66b;
+    font-weight: bold;
+}
+#line{
+    text-align: left;
+    padding-left: 50px;
+    font-size: 18px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 50px;
+}
+#line>img{
+    margin-left: 200px;
+    background-color: #00c66b;
+    border-radius: 100%;
+
+
+}
+h1{
+   margin-left: 25px; 
+   color: #304455;
+}
+p{
+   margin-left: 25px; 
+   font-size: 20px;
+   color: #304455;
+}
+h2{
+    color: #304455;
+}
+h4{
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
