@@ -285,13 +285,15 @@ h3 a:hover {
 #squ{
     background-color: #174c43;
     text-align: justify;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+
 }
 #squ>#up{
-  
     color: #fff;
     padding: 20px 150px;
     height: auto;
     font-size: 20px;
+    line-height: 30px;
 }
 #dn{
     display: flex; 
@@ -308,14 +310,15 @@ h3 a:hover {
 }
 
 #squ>#dn{
-   
     color: #fff;
     padding: 20px 150px;
+    line-height: 20px;
 }
 
 
 #up>h1{
     color: #00c66b;
+    line-height: 45px;
 }
 #dn>#img1>img{
     border-radius: 100%; 

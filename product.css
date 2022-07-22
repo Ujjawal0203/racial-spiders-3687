@@ -1,0 +1,486 @@
+nav {
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    /* justify-content: center; */
+
+    margin: auto;
+    line-height: 40px;
+    background-color: #fff;
+
+}
+
+nav #logo {
+    margin-top: 7px;
+    
+    margin-left: 100px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: -20px; 
+
+}
+
+nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #5f5f5f;
+
+}
+nav li a:hover{
+    color: #00c66b;
+}
+
+#but1 {
+    text-decoration: none;
+    border: 2px solid  #00c66b;
+    color: #00c66b;
+    padding: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+
+#but1:hover {
+    background-color:  #00c66b;
+    color: #fff;
+}
+
+h3 a {
+    text-decoration: none;
+    margin-left: 50px
+}
+
+h3 a:hover {
+    color:  #00c66b;
+}
+
+#dark{
+    background-color: #174c43;
+    height: 400px;
+    padding-top: 70px;
+    padding-right: 100px;
+   
+}
+#dark1{
+    width: 70%;
+    height: 300px;
+    margin: auto;
+  
+}
+#dark1 h3{
+    color: #00c66b;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+}
+#dark1 h1{
+   font-size: 44px;
+   color: #fff;
+   line-height: 45px;
+   font-weight: bold;
+   font-family: 'Mark simonson proxima nova', sans-serif;
+}
+#dark1 p{
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+}
+#but2{
+    border: 2px solid #00c66b;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px; 
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    font-weight: bold;
+}
+#but2:hover{
+    background-color: #00c66b;
+}
+
+.box{
+    display: flex;
+    background-color: #e6f6ef;
+    height: 450px;
+}
+.boxes{
+    display: flex;
+    width: 80%;
+    margin: auto;
+
+}
+.boxes>div{ 
+    width: 60%;
+    height: 300px;
+    margin: auto;
+}
+#image1>img{
+    width: 90%;
+}
+#line1>h1{
+    margin: 30px;
+    margin-top: 80px;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color:#174c43;
+    line-height: 35px;
+}
+#line1>p{
+    margin: 30px;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    font-weight: bold;
+    color: #5f5f5f;
+    line-height: 20px;
+}
+
+
+.rec{
+    /* border: 1px solid red; */
+    height: 500px;
+    margin: auto;
+}
+.rec>.boX{
+    display: flex;
+    /* border: 1px solid black; */
+    padding-top: 40px;
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+.rec>.boX>div{
+    /* border: 1px solid green; */
+    height: 350px;
+    width: 60%;
+    margin: auto;
+}
+.image>img{
+    /* margin-top: 50px; */
+    width: 100%;
+}
+.line>h1{
+    margin: 30px;
+    /* margin-top: 30px; */
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color:#174c43;
+    line-height: 35px;
+    font-size: 35px;
+}
+.line>p{
+    margin: 30px;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color: #5f5f5f;
+    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.but{
+    border: 2px solid #00c66b;
+    color: #00c66b;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 20px; 
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.but:hover{
+    background-color: #00c66b;
+    color: #fff;
+}
+
+#l{
+    display: flex;
+    height: 200px;
+   
+}
+#l>div{
+    width: 40%;
+    padding-left: 130px;
+    margin: auto;
+  
+}
+#l>div>img{
+    width: 70%;
+}
+
+.deep{
+    display: flex;
+    background-color: #e6f6ef;
+    height: 600px;
+    text-align: center;
+}
+.deep>.deep1{
+    display: flex;
+    height: 500px;
+    width: 90%;
+    margin: auto;
+}
+.deep>.deep1>div{
+    height: 450px;
+    width: 30%;
+    margin: auto;
+
+}
+.deep>.deep1>div>img{
+    width: 50%;
+}
+.deep>.deep1>div>h1{
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color:#174c43; 
+}
+.deep>.deep1>div>p{
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color: #5f5f5f;
+    font-size: 18px;
+    line-height: 25px;
+}
+#p1{
+   margin-top: 37px;
+}
+#p2{
+    margin-top: 40px;
+}
+.deep>.deep1>div>#but01{
+    margin-top: 50px;
+}
+
+#squ{
+    background-color: #174c43;
+    text-align: justify;
+}
+#squ>#up{
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color: #fff;
+    padding: 20px 150px;
+    height: auto;
+    font-size: 20px;
+}
+#dn{
+    display: flex; 
+   
+}
+#dn>div{
+    margin: auto;
+    
+}
+
+#dn>div>img{
+    width: 60%;
+   
+}
+
+#squ>#dn{
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color: #fff;
+    padding: 20px 150px;
+}
+
+#dn>#img1>img{
+    border-radius: 100%; 
+
+}
+#dn>#img2>img{
+    margin-left: 80px;
+    width: 60%;
+}
+#l{
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    background-color: #e8f8f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#up>p{
+    margin-top: 50px;
+    font-size: 25px;
+    line-height: 30px;
+}
+#dn h2{
+    font-size: 25px;
+}
+#dn p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+#w{
+    width: 60%;
+    height: 150px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color: #3f3c3c;
+    font-size: 18px;
+}
+#last{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+   
+}
+#last>.la{
+    margin: auto;
+    line-height: 20px;
+    width: 35%;
+    border-right: 1px solid #d1d1d1;
+
+
+}
+.la>img{
+    width: 20%;
+}
+#last>.la1{
+    margin: auto;
+    line-height: 20px;
+    width: 35%;
+   
+
+}
+.la1>img{
+    width: 20%;
+}
+#head1{
+   font-size: 60px;
+   color: #24aae1;
+}
+#u1{
+    font-size: 25px;
+    font-weight: bold;
+    color: #24aae1;
+}
+#head2{
+    font-size: 60px;
+    color: #00c66b;
+}
+#u2{
+    font-size: 25px;
+    font-weight: bold;
+    color: #00c66b;
+}
+#head3{
+    font-size: 60px;
+    color: #1684b6;
+}
+#u3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #1684b6;
+}
+.la>p{
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    color: #3f3c3c;
+    font-style: italic;
+
+}
+
+
+#lu{
+    background-color: #e8f8f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 120px;
+}
+
+#but4 {
+    text-decoration: none;
+    border: 2px solid #00c66b;
+    padding: 10px;
+    border-radius: 5px;
+    color: #00c66b;
+    font-size: 15px;
+}
+#but4:hover{
+    background-color: #00c66b;
+    color: #fff;
+}
+#foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #fff;
+    color: gray;
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+#foot>.footer {
+    margin-top: 20px;
+    height: auto;
+}
+#foot>.footer>div{
+    margin-top: 20px;
+    height: auto;
+}
+li {
+    list-style: none;
+    text-align: justify;
+
+    
+}
+li a{
+    text-decoration: none;
+    color: gray;
+}
+li a:hover{
+    color: #00c66b;
+}
+
+
+#l h1{
+    color: #133d36;
+}
+
+.footer>div>ul>li{
+           font-size: 17px;
+}
+h5{
+    font-size: 17px;
+    padding-left: 40px;
+}
+#footerLast{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(204, 194, 194);
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+#footerIcons>a>img{
+    width: 30px;
+}
+
+#eS{
+    font-style: italic;
+    font-weight: bold;
+}
+#eI{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#lasT{
+    display: flex;
+    justify-content: space-around;
+    background-color: #174c43;
+    padding: 20px;
+   margin-top: 20px;
+   color: rgb(165, 159, 159);
+
+}
+
+
