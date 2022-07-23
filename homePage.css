@@ -22,7 +22,6 @@ nav {
     top: 0px;
     display: flex;
     /* justify-content: center; */
-
     margin: auto;
     line-height: 40px;
     background-color: #fff;
@@ -55,6 +54,7 @@ nav li a:hover{
 }
 
 #but1 {
+    font-family: 'Mark simonson proxima nova', sans-serif;
     text-decoration: none;
     border: 2px solid  #00c66b;
     color: #00c66b;
@@ -74,6 +74,7 @@ nav li a:hover{
 
 
 h3 a {
+    font-family: 'Mark simonson proxima nova', sans-serif;
     text-decoration: none;
     margin-left: 50px
 }
@@ -84,6 +85,7 @@ h3 a:hover {
 
 #dark {
     display: flex;
+    font-family: 'Mark simonson proxima nova', sans-serif;
     /* justify-content: center; */
     margin-top: 10px;
     height: 400px;
@@ -144,7 +146,7 @@ h3 a:hover {
     grid-template-columns: repeat(2, 1fr);
     width: 100%;
     background-color: #e8f8f2;
-
+   
 }
 
 #videoBox>div {
@@ -173,6 +175,7 @@ h3 a:hover {
     text-align: center;
     font-size: 55px;
     color: #133d36;
+  
 }
 #boxes{
     width: 90%;
@@ -418,7 +421,11 @@ h5{
    color: rgb(165, 159, 159);
 
 }
-
-
-
-
+#dn>#img2>img{
+    margin-left: 80px;
+}
+#squ>#logo>img{
+    width: 7%;
+    margin-top: -40px;
+    margin-left: 120px;
+}

@@ -1,0 +1,269 @@
+nav {
+    width: 100%;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    /* justify-content: center; */
+
+    margin: auto;
+    line-height: 40px;
+    background-color: #fff;
+
+}
+
+nav #logo {
+    margin-top: 7px;
+    
+    margin-left: 100px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin: -20px; 
+
+}
+
+nav li a {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: #5f5f5f;
+
+}
+nav li a:hover{
+    color: #00c66b;
+}
+
+#but1 {
+    text-decoration: none;
+    border: 2px solid  #00c66b;
+    color: #00c66b;
+    padding: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    border-radius: 5px;
+}
+
+#but1:hover {
+    background-color:  #00c66b;
+    color: #fff;
+}
+
+
+h3 a {
+    text-decoration: none;
+    margin-left: 50px
+}
+
+h3 a:hover {
+    color:  #00c66b;
+}
+
+
+#dark{
+    background-color: #174c43; 
+    height: 250px;
+    padding-top: 35px;
+    
+}
+#dark>#dark1{
+ width: 70%;
+ height: 200px;  
+ text-align: center;
+  margin: auto;
+}
+#dark>#dark1>h4{
+    font-weight: bold;
+   font-size: 20px;
+   color: #00c66b;
+}
+#dark>#dark1>h1{
+    font-size: 45px;
+   color: #fff;
+  
+}
+#image{
+    width: 60%;
+    margin: auto;
+}
+#image>img{
+  margin-top: 40px;
+   width: 100%;
+}
+.line{
+    width: 60%;
+    margin: auto;
+}
+.line>h1{
+    margin-top: 50px;
+    color:#174c43;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+}
+.line>p{
+    font-size: 18px;
+    color: #5f5f5f;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+}
+.line>ul>li{
+    width: 85%;
+    font-size: 20px;
+    color: #5f5f5f;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+}
+#pic{
+    width: 45%;
+    margin: auto;
+}
+#pic>img{
+    width: 100%;
+}
+#box{
+    background-color:  #e8f8f2;
+    padding-top: 50px;
+    height: 400px;
+    text-align: center;
+}
+
+#boxs{
+    display: flex;
+    height: 280px;
+    width: 80%;
+    margin: auto;
+}
+.bo{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 30%;
+    height: 150px;
+    margin: auto;
+}
+#box>h1{
+    font-size: 35px; 
+    color: #5f5f5f;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+}
+.bo>h3{
+    font-size: 25px; 
+    color: #5f5f5f;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+}
+.link>a{
+    font-size: 20px;
+    color: #00c66b;
+    font-family: 'Mark simonson proxima nova', sans-serif;
+    text-decoration: none;
+}
+.link a:hover{
+    color: #5f5f5f;
+}
+#rec{
+   height: 100px;
+   margin-bottom: 20px;
+}
+#rec1{
+    display: flex;
+    justify-content: space-around;
+    
+   width: 50%;
+   margin: auto;
+}
+#rec1 h1{
+    font-size: 40px;
+   
+    
+}
+#ac {
+    text-decoration: none;
+    height: 13px;
+    width: 20%;
+    margin-top: 20px;
+    text-align: center;
+    color: #00c66b;
+    border: 2px solid #00c66b;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 25px;
+    font-weight: bold;
+}
+#ac:hover{
+    background-color: #00c66b;
+    color: #fff;
+}
+
+#foot{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: #fff;
+    color: gray;
+    height: auto;
+    width: 70%;
+    margin: auto;
+}
+#foot>.footer {
+    margin-top: 20px;
+    height: auto;
+}
+#foot>.footer>div{
+    margin-top: 20px;
+    height: auto;
+}
+li {
+    list-style: none;
+    text-align: justify;
+
+    
+}
+li a{
+    text-decoration: none;
+    color: gray;
+}
+li a:hover{
+    color: #00c66b;
+}
+
+.footer>div>ul>li{
+           font-size: 17px;
+}
+h5{
+    font-size: 17px;
+    padding-left: 40px;
+}
+#footerLast{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(204, 194, 194);
+    margin: auto;
+    width: 70%;
+    padding: 15px;
+    margin-top: 20px;
+
+}
+#footerIcons>a>img{
+    width: 30px;
+}
+
+#eS{
+    font-style: italic;
+    font-weight: bold;
+}
+#eI{
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#last{
+    display: flex;
+    justify-content: space-around;
+    background-color: #174c43;
+    padding: 20px;
+   margin-top: 20px;
+   color: rgb(165, 159, 159);
+
+}
